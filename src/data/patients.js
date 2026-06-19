@@ -1,0 +1,7 @@
+export const PATIENTS = [
+  { id: '#P-001024', nom: 'Mireille Ngono', genre: 'F', age: 34, tel: '697 123 456', service: 'cardio', serviceLabel: 'Cardiologie', medecin: 'Dr. Kamga', dernierRdv: '08 Juin 2026', statut: 'confirmed', statutLabel: 'Actif', avatar: 'from-indigo-400 to-purple-600', initials: 'MN' },
+  { id: '#P-001025', nom: 'Jean Fouda', genre: 'M', age: 52, tel: '655 789 012', service: 'ortho', serviceLabel: 'Orthopédie', medecin: 'Dr. Bello', dernierRdv: '10 Juin 2026', statut: 'pending', statutLabel: 'Hospitalisé', avatar: 'from-pink-400 to-red-400', initials: 'JF' },
+  { id: '#P-001026', nom: "Awa Eto'o", genre: 'F', age: 0.5, tel: '691 445 678', service: 'pedi', serviceLabel: 'Pédiatrie', medecin: 'Dr. Mvondo', dernierRdv: '10 Juin 2026', statut: 'urgent', statutLabel: 'Urgence', avatar: 'from-sky-400 to-cyan-300', initials: 'AE' },
+  { id: '#P-001027', nom: 'Paul Onana', genre: 'M', age: 41, tel: '677 001 234', service: 'neuro', serviceLabel: 'Neurologie', medecin: 'Dr. Eyinga', dernierRdv: '05 Juin 2026', statut: 'completed', statutLabel: 'En suivi', avatar: 'from-emerald-400 to-teal-300', initials: 'PO' },
+  { id: '#P-001028', nom: 'Sandra Nkomo', genre: 'F', age: 28, tel: '699 334 556', service: 'dermato', serviceLabel: 'Dermatologie', medecin: 'Dr. Ndom', dernierRdv: '02 Juin 2026', statut: 'confirmed', statutLabel: 'Actif', avatar: 'from-pink-300 to-pink-500', initials: 'SN' },
+];

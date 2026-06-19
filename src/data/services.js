@@ -1,0 +1,8 @@
+export const SERVICES = [
+  { icon: "❤️", nom: "Cardiologie", desc: "Diagnostic et traitement des maladies cardiovasculaires. ECG, échographie cardiaque, suivi HTA.", patients: 74, medecins: 2, salle: "Salle 2", tarif: "15 000 FCFA", couleur: "bg-blue-500", border: "border-t-blue-500" },
+  { icon: "👶", nom: "Pédiatrie", desc: "Soins médicaux pour enfants et nourrissons. Vaccination, suivi croissance, maladies infantiles.", patients: 62, medecins: 2, salle: "Salle 1", tarif: "12 000 FCFA", couleur: "bg-green", border: "border-t-green" },
+  { icon: "🦴", nom: "Orthopédie", desc: "Traitement des affections de l'appareil locomoteur. Chirurgie, rééducation, traumatologie.", patients: 50, medecins: 2, salle: "Salle 4", tarif: "13 000 FCFA", couleur: "bg-gold", border: "border-t-gold" },
+  { icon: "🧠", nom: "Neurologie", desc: "Maladies du système nerveux. Migraines, épilepsie, AVC, sclérose en plaques.", patients: 37, medecins: 1, salle: "Salle 3", tarif: "18 000 FCFA", couleur: "bg-purple-600", border: "border-t-purple-600" },
+  { icon: "🚨", nom: "Urgences", desc: "Prise en charge immédiate des urgences médicales 24h/24. Réanimation, soins intensifs.", patients: 3, medecins: 3, salle: "24h/24", tarif: "25 000 FCFA", couleur: "bg-red-500", border: "border-t-red-500" },
+  { icon: "🔬", nom: "Dermatologie", desc: "Maladies de la peau, ongles et cheveux. Dermatoses, acné, eczéma, cancers cutanés.", patients: 22, medecins: 1, salle: "Salle 1", tarif: "12 000 FCFA", couleur: "bg-cyan-500", border: "border-t-cyan-500" },
+];
