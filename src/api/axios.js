@@ -1,7 +1,9 @@
 import axios from 'axios';
 
+const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000/api';
+
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000/api',
+  baseURL: API_URL,
   headers: {
     'Content-Type': 'application/json',
   },
@@ -69,9 +71,9 @@ api.interceptors.response.use(
       try {
         // Demande un nouveau access token
         const response = await axios.post(
-          'http://127.0.0.1:8000/api/auth/token/refresh/',
-          { refresh: refreshToken }
-        );
+  `${API_URL}/auth/token/refresh/`,
+  { refresh: refreshToken }
+);
 
         const newAccessToken = response.data.access;
 
